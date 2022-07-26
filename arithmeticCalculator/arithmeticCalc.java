@@ -8,14 +8,13 @@ class arithmeticCalc {
     char op;
     Double n1, n2, res;
 
-    // create an object of Scanner class
+    
     Scanner in = new Scanner(System.in);
 
-    // ask users to enter operator
+
     System.out.println("Choose an operator: +, -, *, or /");
     op = in.next().charAt(0);
 
-    // ask users to enter numbers
     System.out.println("Enter first number");
     n1 = in.nextDouble();
 
@@ -48,7 +47,7 @@ class arithmeticCalc {
         break;
 
       default:
-        System.out.println("Invalid operation");
+        System.out.println("Error:Invalid Operation has been performed");
         break;
     }
 
