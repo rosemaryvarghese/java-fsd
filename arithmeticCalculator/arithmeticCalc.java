@@ -2,7 +2,7 @@ package arithmeticCalculator;
 
 import java.util.Scanner;
 
-class Main {
+class arithmeticCalc {
   public static void main(String[] args) {
 
     char op;
