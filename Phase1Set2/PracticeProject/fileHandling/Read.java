@@ -1,9 +1,9 @@
 package fileHandling;
 
 import java.io.File;   
-//Importing FileNotFoundException class for handling errors  
+ 
 import java.io.FileNotFoundException;   
-//Importing the Scanner class for reading text files  
+
 import java.util.Scanner;   
 
 class Read {  
