@@ -1,32 +1,35 @@
 package linearSearch;
 
-import java.util.Scanner;
+import java.util.Scanner;  
 
-public class LinearSearch {
-	public static void main(String[] args) {
-		int a[]= {2,3,5,1,7,9,19,32,88,23};//unsorted
-		Scanner sc=new Scanner(System.in);
-		System.out.println("enter the key element");
-		int ele=sc.nextInt();
-		int flag=0;
-		int i=0;
-		for(i=0;i<a.length;i++) {
-			if(a[i]==ele) {
-				flag=1;
-				break;
-			}
-			else {
-				flag=0;
-			}
-		}
-		
-		if(flag==1) {
-			System.out.println("element found at index "+ i);
-		}
-		else {
-			System.out.println("element is not found");
-		}
-		
-	}
-
-}
+class LinearSearch   
+{  
+  public static void main(String args[])  
+  {  
+    int i, n, search, arr[];  
+   
+    Scanner in = new Scanner(System.in);  
+    System.out.println("Enter number of elements");  
+    n = in.nextInt();   
+    arr = new int[n];  
+   
+    System.out.println("Enter the " + n + " numbers");  
+   
+    for (i = 0; i < n; i++)  
+      arr[i] = in.nextInt();  
+   
+    System.out.println("Enter value to search in the array");  
+    search = in.nextInt();  
+   
+    for (i = 0; i < n; i++)  
+    {  
+      if (arr[i] == search)     /* Searching element is present */  
+      {  
+         System.out.println(search + " is present at location " + (i + 1) + ".");  
+          break;  
+      }  
+   }  
+   if (i == n)  /* Element to search isn't present */  
+      System.out.println(search + " isn't present in array.");  
+  }  
+}  
