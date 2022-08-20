@@ -1,4 +1,5 @@
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,18 +11,9 @@
 	<div id="page">
 		<jsp:include page="left-list.jsp" />
 
-
-		<div id="wrapper">
-
-			<div id="header">
 				<h3>Classes</h3>
-			</div>
-		</div>
-
-
-		<div id="container">
-
-			<div id="content">
+			
+	
 
 				<table>
 
@@ -51,18 +43,10 @@
 							<td>${tempClass.time}</td>
 							<td><a href="${tempLink }">List</a></td>
  
-
-
-
-
 						</tr>
 
-
 					</c:forEach>
-
 				</table>
-			</div>
-		</div>
 	</div>
 
 </body>
