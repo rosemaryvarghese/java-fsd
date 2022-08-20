@@ -1,4 +1,4 @@
-package com.simplilearn.admin;
+package com.admin;
 
 import java.io.IOException;
 import java.util.List;
