@@ -1,17 +1,17 @@
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
-
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="ISO-8859-1">
 <title>Login</title>
- 
+
 </head>
+<body>
 
-
-  <center> <h1> Admin Login </h1>    </center>
+  <center> <h1> Admin Login </h1> </center>   
     <form action="AdminControllerServlet" method="POST">  
-        <div class="container">   
+       
         	<input type="hidden" name="command" value="LOGIN" />
             <label>Username : </label>   
             <br/>
@@ -25,8 +25,7 @@
             <br/>
             <input type="checkbox" checked="checked"> Remember me   
              
-        </div>   
-    </form>     
+           </form>     
 
 
 </body>
