@@ -1,4 +1,4 @@
-package com.simplilearn.admin;
+package com.admin;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
