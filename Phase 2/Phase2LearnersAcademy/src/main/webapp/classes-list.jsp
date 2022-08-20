@@ -7,13 +7,9 @@
 <title>List of Classes</title>
 
 </head>
-
-	<div id="page">
 		<jsp:include page="left-list.jsp" />
 
 				<h3>Classes</h3>
-			
-	
 
 				<table>
 
@@ -47,7 +43,6 @@
 
 					</c:forEach>
 				</table>
-	</div>
 
 </body>
 </html>
