@@ -7,6 +7,7 @@
 <title>List of Classes</title>
 
 </head>
+<body>
 		<jsp:include page="left-list.jsp" />
 
 				<h3>Classes</h3>
