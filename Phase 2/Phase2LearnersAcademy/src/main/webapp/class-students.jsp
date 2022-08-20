@@ -1,4 +1,6 @@
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+
 
 <!DOCTYPE html>
 <html>
@@ -6,13 +8,11 @@
 <meta charset="ISO-8859-1">
 <title>Students of a Class</title>
 </head>
-<div id="page" >
+<body>
 	<jsp:include page="left-list.jsp" />
-			<div id="header">
+			
 				<h3>Students of ${SUBJECT} class section ${SECTION} </h3>
-			</div>
-		</div>
-			<div id="content">
+			
 				<table>
 					<tr>
 						<th>First Name</th>
@@ -27,7 +27,6 @@
 						</tr>
 					</c:forEach>
 				</table>
-		/div>
-	</div>
+	
 </body>
 </html>
