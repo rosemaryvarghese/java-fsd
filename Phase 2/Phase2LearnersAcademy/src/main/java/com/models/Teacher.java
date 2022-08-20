@@ -1,4 +1,4 @@
-package com.simplilearn.models;
+package com.models;
 
 public class Teacher {
 	
