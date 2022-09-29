@@ -1,0 +1,39 @@
+{
+  "employees": [
+    {
+      "id": 2,
+      "employee_name": "John Smith",
+      "employee_email": "johnsmith@gmail.com",
+      "employee_salary": 154000,
+      "employee_age": "32"
+    },
+    {
+      "id": 6,
+      "employee_name": "Sangeeth R",
+      "employee_email": "sangeeth@gmail.com",
+      "employee_salary": "57000",
+      "employee_age": "24"
+    },
+    {
+      "id": 5,
+      "employee_name": "Rinu Ann",
+      "employee_email": "rinuann@gmail.com",
+      "employee_salary": "40000",
+      "employee_age": "45"
+    },
+    {
+      "id": 33,
+      "employee_name": "Richa Grace",
+      "employee_email": "richagrace@gmail.com",
+      "employee_salary": "2131312",
+      "employee_age": "41"
+    }
+  ],
+  "admin": [
+    {
+      "email": "admin",
+      "password": "admin1",
+      "id": 1
+    }
+  ]
+}
