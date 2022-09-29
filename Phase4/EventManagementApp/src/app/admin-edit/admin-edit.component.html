@@ -1,0 +1,21 @@
+<div class="col-md-6">  
+    <h2 class="text-center" style=" text-decoration: underline;color:blue;text-shadow: 0 0 3px #00e1ff, 0 0 5px #e6e6f1;">{{empformlabel}}</h2>  
+    <form [formGroup]="editForm" novalidate class="form" style="margin: auto; padding-top: 5px; padding-bottom: 10px;width: 400px;">  
+      <div class="form-group" style=" padding: 12px 20px;">  
+        <label for="email">Admin Email:</label>  
+        <input formControlName="email" placeholder="Email" name="email" class="form-control" id="email">  
+        <div class="alert  alert-danger" *ngIf="editForm.get('email')!.hasError('required') ">  
+          Email is required  
+        </div>  
+      </div>  
+      <div class="form-group" style=" padding: 12px 20px;">  
+        <label for="password">Password:</label>  
+        <input formControlName="password" placeholder="Password" name="password" class="form-control" id="password">  
+        <div class="alert  alert-danger" *ngIf="editForm.get('password')!.hasError('required') ">  
+          Password is required  
+        </div>  
+      </div>   
+       <button class="btn btn-success" [disabled]='editForm.invalid'  (click)="onUpdate()">Update</button>  
+      <p>Form value: {{ editForm.value | json }}</p>  
+    </form>  
+  </div>  
