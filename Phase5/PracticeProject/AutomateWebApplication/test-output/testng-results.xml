@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-07T11:26:22 IST" name="Default suite" finished-at="2022-10-07T11:26:22 IST" duration-ms="64">
+    <groups>
+    </groups>
+    <test started-at="2022-10-07T11:26:22 IST" name="Default test" finished-at="2022-10-07T11:26:22 IST" duration-ms="64">
+      <class name="com.seleniumlogin.login">
+        <test-method signature="f()[pri:0, instance:com.seleniumlogin.login@26275bef]" started-at="2022-10-07T11:26:22 IST" name="f" finished-at="2022-10-07T11:26:22 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- com.seleniumlogin.login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
