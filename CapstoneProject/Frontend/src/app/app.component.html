@@ -1,0 +1,40 @@
+
+    <nav class="navbar navbar-expand-sm bg-success navbar-dark" style="background-color: #e3f2fd;">   
+    <ul class = "navbar-nav">
+        <li class = "nav-item">
+            <a routerLink="login" routerLinkActive="active" class="nav-link" >Login</a>
+        </li>
+        <li class = "nav-item">
+            <a routerLink="employees" routerLinkActive="active" class="nav-link" >AadharUser List</a>
+        </li>
+        
+        <li class = "nav-item">
+            <a routerLink="create-employee" routerLinkActive="active" class="nav-link" >New Aadhar</a>
+        </li>
+        &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;
+        &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;
+        &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;
+        &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;
+        &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;
+        &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;
+        &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;
+        <li class = "nav-item">
+            <a routerLink="signup" routerLinkActive="active" class="nav-link" >SignUp</a>
+        </li>
+        <li class = "nav-item">
+            <a routerLink="login" routerLinkActive="active" class="nav-link" >Login</a>
+        </li>
+    </ul>
+</nav>
+<img src="../assets/aadharlogo.png" class="img-fluid"  class="rounded float-left" alt="Responsive image"  style="width:10%" >&nbsp;
+<h1 class="text-left"> {{title}} </h1>
+<br>
+<div class = "container">
+    <router-outlet></router-outlet>
+</div>
+
+<footer class = "footer">
+    <div class = "container">
+        <span>@Copyright 2022 ,developed By:Rose Mary Varghese</span>
+    </div>
+</footer>
